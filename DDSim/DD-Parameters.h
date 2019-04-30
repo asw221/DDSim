@@ -30,7 +30,7 @@ private:
   int startingIterationID;
 	
   int initKPDSize;
-  int initKPDPairsAddedPerMatchRun;  // Not yet set via file - AW
+  int initKPDPairsAddedPerMatchRun;
   double pairArrivals;
   double nddArrivals;		
 
@@ -299,6 +299,9 @@ bool KPDParameters::processParameters(std::string & fileName){
       
       if (tokenOne.compare("#initkpdsize") == 0) {
 	initKPDSize = atoi(tokenTwo.c_str());
+      }
+      if (tokenOne.compare("#initKPDPairsAddedPerMatchRun") == 0) {
+	initKPDPairsAddedPerMatchRun = atoi(tokenTwo.c_srt());
       }
       
       if (tokenOne.compare("#pairarrivals") == 0) {
