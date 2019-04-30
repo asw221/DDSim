@@ -1,0 +1,19 @@
+
+# Ignore all data files
+*.csv
+
+# Ignore temporaries
+*~
+
+
+# Ignore test, data, and output directories
+# (ignore data since it could be sensitive)
+# 
+_test
+data
+output
+R
+
+
+# R specific
+.Rhistory

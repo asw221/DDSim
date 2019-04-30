@@ -45,150 +45,196 @@ std::string fileDDExchanges;
 
 std::string fileKPDPopulation;
 
-void buildDirectoryStructure(){
 
-	// Variable names
-	std::string kpdResultsVariableNames = "Simulation,MatchRun,MatchRunTime,TransplantationTime,DonorType,DonorNodeID,DonorID,DonorArrivalTime,DonorAvailable,CandidateNodeID,CandidateArrivalTime,CandidateAssociatedDonors,CandidateAvailable,Surv5Year,Surv10Year,Score,RandomUtility,TransplantAssumedProb,TransplantActualProb,VirtualCrossmatch,LabCrossmatch,Transplanted";
-	std::string deceasedDonorResultsVariableNames = "";
 
-	std::string selectedKPDExchangesVariableNames = "";
-	std::string selectedDeceasedDonorChainsVariableNames = "";
+
+void buildDirectoryStructure() {
+  // Variable names
+  std::string kpdResultsVariableNames =
+    "Simulation,MatchRunTime,TransplantationTime,"
+    "DonorType,DonorNodeID,DonorID,DonorArrivalTime,DonorBT,DonorHLA,DonorRelationship,"
+    "DonorAge,DonorSex,DonorRace,DonorHeight,DonorWeight,DonorBMI,"
+    "DonorCigaretteUse,"
+    "CandidateNodeID,CandidateArrivalTime,CandidateAssociatedDonors,"
+    "CandidateAvailable,CandidateBT,CandidatePRA,"
+    "CandidateAge,CandidateSex,CandidateRace,CandidateDiabetes,"
+    "CandidateHeight,CandidateWeight,CandidateBMI,"
+    "CandidatePrevTransplant,CandidateTOD,CandidateHepC,CandidateInusrance,"
+    "Surv5Year,Surv10Year,TransplantDifficulty,RandomUtility,"
+    "TransplantAssumedProb,TransplantActualProb,"
+    "VirtualCrossmatch,LabCrossmatch,"
+    "Transplanted,ApproxKPDPoolSize";
+  
+  std::string deceasedDonorResultsVariableNames = "";
+
+  std::string selectedKPDExchangesVariableNames = "";
+  std::string selectedDeceasedDonorChainsVariableNames = "";
 	
-	std::string kpdPopulationVariableNames = "Simulation,NodeID,DonorID,NodeType,ArrivalTime,rBT,rPRA,rAge,rMale,rRace,rDiabetes,rHeight,rWeight,rBMI,rPrevTrans,rTOD,rHepC,rInsurance,rAssumedProb,rActualProb,dBT,relationToCandidate,dAge,dMale,dRace,dHeight,dWeight,dBMI,dCigaretteUse,dAssumedProb,dActualProb";
+  std::string kpdPopulationVariableNames =
+    "Simulation,NodeID,DonorID,NodeType,ArrivalTime,"
+    "RecipBT,RecipPRA,RecipAge,RecipSex,RecipRace,"
+    "RecipDiabetes,RecipHeight,RecipWeight,RecipBMI,"
+    "RecipPrevTrans,RecipTOD,RecipHepC,RecipInsurance,"
+    "DonorBT,DonorHLA,RelationToCandidate,DonorAge,DonorSex,DonorRace,"
+    "DonorHeight,DonorWeight,DonorBMI,"
+    "DonorCigaretteUse";
 	
 
-	//Set up main output directory
-	std::string outputFolder = kpdParameters->getOutputFolder();	
-	std::string folderPath = "output/" + outputFolder;
-	std::string folderPathWindows = "output\\" + outputFolder;
+  //Set up main output directory
+  std::string outputFolder = kpdParameters->getOutputFolder();	
+  std::string folderPath = "output/" + outputFolder;
+  std::string folderPathWindows = "output\\" + outputFolder;
 	
-	#ifdef _WIN32
-	_mkdir(folderPathWindows.c_str());
-	#else 
-	mkdir(folderPath.c_str(), 0777);
-	#endif
+#ifdef _WIN32
+  _mkdir(folderPathWindows.c_str());
+#else 
+  mkdir(folderPath.c_str(), 0777);
+#endif
 
-	//Set up simulation sub-directory
-	std::string subFolderName = kpdParameters->getSubFolder();
-	folderPath = folderPath + "/" + subFolderName;
-	folderPathWindows = folderPathWindows + "\\" + subFolderName;
+  //Set up simulation sub-directory
+  std::string subFolderName = kpdParameters->getSubFolder();
+  folderPath = folderPath + "/" + subFolderName;
+  folderPathWindows = folderPathWindows + "\\" + subFolderName;
 	
-	#ifdef _WIN32
-	_mkdir(folderPathWindows.c_str());
-	#else 
-	mkdir(folderPath.c_str(), 0777);
-	#endif
+#ifdef _WIN32
+  _mkdir(folderPathWindows.c_str());
+#else 
+  mkdir(folderPath.c_str(), 0777);
+#endif
 
-	// Add results file to sub-directory
-	fileKPDResults = folderPath + "/KPDResults.csv";
+  // Add results file to sub-directory
+  fileKPDResults = folderPath + "/KPDResults.csv";
 
-	outputStream.open(fileKPDResults.c_str());
-	outputStream << kpdResultsVariableNames << std::endl;
-	outputStream.close();
+  outputStream.open(fileKPDResults.c_str());
+  outputStream << kpdResultsVariableNames << std::endl;
+  outputStream.close();
 
-	fileDDResults = folderPath + "/DDResults.csv";
+  fileDDResults = folderPath + "/DDResults.csv";
 
-	outputStream.open(fileDDResults.c_str());
-	outputStream << deceasedDonorResultsVariableNames << std::endl;
-	outputStream.close();
+  outputStream.open(fileDDResults.c_str());
+  outputStream << deceasedDonorResultsVariableNames << std::endl;
+  outputStream.close();
 
-	// Add exchange information file to sub-directory
-	if (!kpdParameters->suppressExchangeOutput()) {
-		fileKPDExchanges = folderPath + "/KPDExchanges.csv";
+  // Add exchange information file to sub-directory
+  if (!kpdParameters->suppressExchangeOutput()) {
+    fileKPDExchanges = folderPath + "/KPDExchanges.csv";
 
-		outputStream.open(fileKPDExchanges.c_str());
-		outputStream << selectedKPDExchangesVariableNames << std::endl;
-		outputStream.close();
+    outputStream.open(fileKPDExchanges.c_str());
+    outputStream << selectedKPDExchangesVariableNames << std::endl;
+    outputStream.close();
 
-		fileDDExchanges = folderPath + "/DDExchanges.csv";
+    fileDDExchanges = folderPath + "/DDExchanges.csv";
 
-		outputStream.open(fileDDExchanges.c_str());
-		outputStream << selectedDeceasedDonorChainsVariableNames << std::endl;
-		outputStream.close();
-	}
+    outputStream.open(fileDDExchanges.c_str());
+    outputStream << selectedDeceasedDonorChainsVariableNames << std::endl;
+    outputStream.close();
+  }
 
-	// Add KPD population information file to sub-directory
-	if (!kpdParameters->suppressPopulationOutput()) {
-		fileKPDPopulation = folderPath + "/KPDPopulation.csv";
+  // Add KPD population information file to sub-directory
+  if (!kpdParameters->suppressPopulationOutput()) {
+    fileKPDPopulation = folderPath + "/KPDPopulation.csv";
 
-		outputStream.open(fileKPDPopulation.c_str());
-		outputStream << kpdPopulationVariableNames << std::endl;
-		outputStream.close();
-	}
+    outputStream.open(fileKPDPopulation.c_str());
+    outputStream << kpdPopulationVariableNames << std::endl;
+    outputStream.close();
+  }
 }
+
+
+
+
+
 
 int main(int argc, const char* argv[]){
 
-	// Initialize default parameters object
-	kpdParameters = new KPDParameters();
+  // Initialize default parameters object
+  kpdParameters = new KPDParameters();
 
-	// First argument points to parameter file; process this file to collect parameters
-	if (argc > 1){
-		std::string parameterFile = argv[1];
-		parameterFile = "parameters/" + parameterFile;
-		kpdParameters->processParameters(parameterFile);
-	}
-
-	// Set up output directories
-	buildDirectoryStructure();
+  // First argument points to parameter file; process this file to collect parameters
+  if (argc > 1){
+    std::string parameterFile = argv[1];
+    parameterFile = "parameters/" + parameterFile;
+    if (!kpdParameters->processParameters(parameterFile)) {
+      std::cout
+	<< parameterFile << "\n"
+	<< "**********************************************************************\n"
+	<< "**                 Above parameter file(s) NOT read                 **\n"
+	<< "**********************************************************************\n";
+    }
+  }
+  std::cout << "  **  Number of simulation iterations: "
+	    << kpdParameters->getNumberOfIterations()
+	    << "  **  \n";
 	
-	// Screen output
-	std::cout << "Output Folder: output/" << kpdParameters->getOutputFolder() << "/" << kpdParameters->getSubFolder() << std::endl;
-	std::cout << std::endl;
-
-	std::cout << "Beginning Simulation..." << std::endl;
+  // Set up output directories
+  buildDirectoryStructure();
 	
-	// Run simulation
-	KPDSimulation * kpdSimulation = new KPDSimulation(kpdParameters);
+  // Screen output
+  std::cout << "Output Folder: output/"
+	    << kpdParameters->getOutputFolder() << "/"
+	    << kpdParameters->getSubFolder()
+	    << std::endl << std::endl;
 
-	int numberOfIterations = kpdParameters->getNumberOfIterations();
-	int startingIteration = kpdParameters->getStartingIterationID();
-	int currentIteration = startingIteration;
+  std::cout << "Beginning Simulation..." << std::endl;
+	
+  // Run simulation
+  KPDSimulation * kpdSimulation = new KPDSimulation(kpdParameters);
 
-	while(currentIteration < startingIteration + numberOfIterations) { // Run for specified number iterations, starting from a given iteration
+  int numberOfIterations = kpdParameters->getNumberOfIterations();
+  int startingIteration = kpdParameters->getStartingIterationID();
+  int currentIteration = startingIteration;
+
+  // ###################################################################
+  // kpdSimulation->printDeceasedDonors();
+  // ###################################################################
+
+  while (currentIteration < startingIteration + numberOfIterations) {
+    // Run for specified number iterations, starting from a given iteration
 		
-		//Initialize current iteration
-		kpdSimulation->runIteration(currentIteration);
+    //Initialize current iteration
+    kpdSimulation->runIteration(currentIteration);
 
-		//Print results
-		outputStream.open(fileKPDResults.c_str(), std::ofstream::app);
-		outputStream << kpdSimulation->getOutputKPDResults();
-		outputStream.close();
+    //Print results
+    outputStream.open(fileKPDResults.c_str(), std::ofstream::app);
+    outputStream << kpdSimulation->getOutputKPDResults();
+    outputStream.close();
 
-		outputStream.open(fileDDResults.c_str(), std::ofstream::app);
-		outputStream << kpdSimulation->getOutputDDResults();
-		outputStream.close();
+    outputStream.open(fileDDResults.c_str(), std::ofstream::app);
+    outputStream << kpdSimulation->getOutputDDResults();
+    outputStream.close();
 
-		//Print exchange information
-		if (!kpdParameters->suppressExchangeOutput()) {
-			outputStream.open(fileKPDExchanges.c_str(), std::ofstream::app);
-			outputStream << kpdSimulation->getOutputKPDExchanges();
-			outputStream.close();
+    //Print exchange information
+    if (!kpdParameters->suppressExchangeOutput()) {
+      outputStream.open(fileKPDExchanges.c_str(), std::ofstream::app);
+      outputStream << kpdSimulation->getOutputKPDExchanges();
+      outputStream.close();
 
-			outputStream.open(fileDDExchanges.c_str(), std::ofstream::app);
-			outputStream << kpdSimulation->getOutputDDExchanges();
-			outputStream.close();
-		}
+      outputStream.open(fileDDExchanges.c_str(), std::ofstream::app);
+      outputStream << kpdSimulation->getOutputDDExchanges();
+      outputStream.close();
+    }
 
-		//Print population information
-		if (!kpdParameters->suppressPopulationOutput()) {
-			outputStream.open(fileKPDPopulation.c_str(), std::ofstream::app);
-			outputStream << kpdSimulation->getOutputKPDPopulation();
-			outputStream.close();
-		}
+    //Print population information
+    if (!kpdParameters->suppressPopulationOutput()) {
+      outputStream.open(fileKPDPopulation.c_str(), std::ofstream::app);
+      outputStream << kpdSimulation->getOutputKPDPopulation();
+      outputStream.close();
+    }
 
-		currentIteration++;
-	}
+    currentIteration++;
+  }
 
-	std::cout << "...Ending Simulation" << std::endl;
+  std::cout << "...Ending Simulation" << std::endl;
+  // std::cout << "\n\n======================================================================\n\n"
+  // 	    << kpdSimulation->getOutputKPDResults() << "\n\n";
 
-	//Delete simulation and parameters
-	delete kpdSimulation;
-	delete kpdParameters;
+  //Delete simulation and parameters
+  delete kpdSimulation;
+  delete kpdParameters;
 
-	#ifdef _WIN32
-	system("PAUSE");
-	#endif	
+#ifdef _WIN32
+  system("PAUSE");
+#endif	
 	
-	return 0;
+  return 0;
 }

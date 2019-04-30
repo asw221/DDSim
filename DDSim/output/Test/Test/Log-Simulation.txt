@@ -1,127 +1,832 @@
-0: 5 Inactive -> Active
-0: 6 Inactive -> Active
-0: 9 Inactive -> Active
-0: 10 Inactive -> Active
+0: 2 Inactive -> Active
+0: 3 Inactive -> Active
+0: 11 Inactive -> Active
 0: 12 Inactive -> Active
-0: 13 Inactive -> Active
-0: 15 Inactive -> Active
+0: 14 Inactive -> Active
+0: 16 Inactive -> Active
+0: 17 Inactive -> Active
 0: 18 Inactive -> Active
-0: 19 Inactive -> Active
 0: 20 Inactive -> Active
+0: 21 Inactive -> Active
 0: 23 Inactive -> Active
 0: 24 Inactive -> Active
+0: 25 Inactive -> Active
 0: 26 Inactive -> Active
-0: 28 Inactive -> Active
-0: 30 Inactive -> Active
-0: 32 Inactive -> Active
+0: 27 Inactive -> Active
+0: 29 Inactive -> Active
+0: 31 Inactive -> Active
 0: 33 Inactive -> Active
 0: 34 Inactive -> Active
 0: 35 Inactive -> Active
-0: 36 Inactive -> Active
-0: 37 Inactive -> Active
 0: 40 Inactive -> Active
-0: 41 Inactive -> Active
 0: 43 Inactive -> Active
 0: 45 Inactive -> Active
+0: 46 Inactive -> Active
 0: 47 Inactive -> Active
-0: 48 Inactive -> Active
 0: 49 Inactive -> Active
 0: 50 Inactive -> Active
 0: 51 Inactive -> Active
-0: 54 Inactive -> Active
-0: 55 Inactive -> Active
-0: 63 Inactive -> Active
+0: 57 Inactive -> Active
+0: 58 Inactive -> Active
+0: 60 Inactive -> Active
+0: 61 Inactive -> Active
+0: 62 Inactive -> Active
+0: 66 Inactive -> Active
 0: 67 Inactive -> Active
 0: 68 Inactive -> Active
-0: 69 Inactive -> Active
 0: 70 Inactive -> Active
-0: 71 Inactive -> Active
 0: 72 Inactive -> Active
-0: 73 Inactive -> Active
-0: 75 Inactive -> Active
+0: 77 Inactive -> Active
 0: 78 Inactive -> Active
 0: 80 Inactive -> Active
-0: 81 Inactive -> Active
-0: 82 Inactive -> Active
-0: 84 Inactive -> Active
+0: 83 Inactive -> Active
+0: 85 Inactive -> Active
 0: 86 Inactive -> Active
-0: 89 Inactive -> Active
-0: 90 Inactive -> Active
+0: 87 Inactive -> Active
 0: 92 Inactive -> Active
-1: WL 2840 Inactive -> Active
-1: 94 Inactive -> Active
-1: 95 Inactive -> Active
-Match Run at Time 1
-Active Pool for Current Match Run: 32 (1) 63 (1) 5 (0) 6 (0) 9 (0) 10 (0) 12 (0) 13 (0) 15 (0) 18 (0) 19 (0) 20 (0) 23 (0) 24 (0) 26 (0) 28 (0) 30 (0) 33 (0) 34 (0) 35 (0) 36 (0) 37 (0) 40 (0) 41 (0) 43 (0) 45 (0) 47 (0) 48 (0) 49 (0) 50 (0) 51 (0) 54 (0) 55 (0) 67 (0) 68 (0) 69 (0) 70 (0) 71 (0) 72 (0) 73 (0) 75 (0) 78 (0) 80 (0) 81 (0) 82 (0) 84 (0) 86 (0) 89 (0) 90 (0) 92 (0) 94 (0) 
-Cycles/Chains: 0
-
+0: 93 Inactive -> Active
+0: 95 Inactive -> Active
+0: 96 Inactive -> Active
+0: 99 Inactive -> Active
+0: 102 Inactive -> Active
+0: 106 Inactive -> Active
+0: 107 Inactive -> Active
+0: 108 Inactive -> Active
+0: 110 Inactive -> Active
+0: 111 Inactive -> Active
+0: 112 Inactive -> Active
+0: 113 Inactive -> Active
+0: 115 Inactive -> Active
+0: 117 Inactive -> Active
+0: 119 Inactive -> Active
+0: 123 Inactive -> Active
+0: 124 Inactive -> Active
+0: 126 Inactive -> Active
+0: 129 Inactive -> Active
+0: 133 Inactive -> Active
+0: 136 Inactive -> Active
+0: 137 Inactive -> Active
+0: 138 Inactive -> Active
+0: 139 Inactive -> Active
+0: 141 Inactive -> Active
+0: 142 Inactive -> Active
+0: 144 Inactive -> Active
+0: 146 Inactive -> Active
+0: 147 Inactive -> Active
+0: 149 Inactive -> Active
+0: 153 Inactive -> Active
+0: 155 Inactive -> Active
+0: 158 Inactive -> Active
+0: 159 Inactive -> Active
+0: 160 Inactive -> Active
+0: 163 Inactive -> Active
+0: 164 Inactive -> Active
+0: 165 Inactive -> Active
+0: 166 Inactive -> Active
+0: 168 Inactive -> Active
+0: 170 Inactive -> Active
+0: 171 Inactive -> Active
+0: 172 Inactive -> Active
+0: 173 Inactive -> Active
+0: 174 Inactive -> Active
+0: 175 Inactive -> Active
+0: 177 Inactive -> Active
+0: 180 Inactive -> Active
+0: 181 Inactive -> Active
+0: 183 Inactive -> Active
+0: 184 Inactive -> Active
+0: 185 Inactive -> Active
+0: 186 Inactive -> Active
+0: 189 Inactive -> Active
+0: 190 Inactive -> Active
+0: 192 Inactive -> Active
+0: 193 Inactive -> Active
+0: 194 Inactive -> Active
+0: 195 Inactive -> Active
+0: 197 Inactive -> Active
+0: 198 Inactive -> Active
+0: 199 Inactive -> Active
+0: 200 Inactive -> Active
+0: 201 Inactive -> Active
+0: 202 Inactive -> Active
+0: 203 Inactive -> Active
+0: 204 Inactive -> Active
+0: 205 Inactive -> Active
+0: 207 Inactive -> Active
+0: 208 Inactive -> Active
+0: 209 Inactive -> Active
+0: 210 Inactive -> Active
+0: 211 Inactive -> Active
+0: 212 Inactive -> Active
+0: 213 Inactive -> Active
+0: 214 Inactive -> Active
+0: 215 Inactive -> Active
+0: 216 Inactive -> Active
+0: 221 Inactive -> Active
+0: 222 Inactive -> Active
+0: 223 Inactive -> Active
+0: 224 Inactive -> Active
+0: 225 Inactive -> Active
+0: 227 Inactive -> Active
+0: 228 Inactive -> Active
+0: 229 Inactive -> Active
+0: 230 Inactive -> Active
+0: 231 Inactive -> Active
+0: 234 Inactive -> Active
+0: 237 Inactive -> Active
+0: 238 Inactive -> Active
+0: 239 Inactive -> Active
+0: 240 Inactive -> Active
+0: 241 Inactive -> Active
+0: 242 Inactive -> Active
+0: 243 Inactive -> Active
+0: 244 Inactive -> Active
+0: 245 Inactive -> Active
+0: 246 Inactive -> Active
+0: 247 Inactive -> Active
+0: 251 Inactive -> Active
+0: 252 Inactive -> Active
+0: 253 Inactive -> Active
+0: 254 Inactive -> Active
+0: 255 Inactive -> Active
+0: 256 Inactive -> Active
+0: 258 Inactive -> Active
+0: 260 Inactive -> Active
+0: 261 Inactive -> Active
+0: 262 Inactive -> Active
+0: 265 Inactive -> Active
+0: 267 Inactive -> Active
+0: 268 Inactive -> Active
+0: 269 Inactive -> Active
+0: 270 Inactive -> Active
+0: 271 Inactive -> Active
+0: 273 Inactive -> Active
+0: 274 Inactive -> Active
+0: 275 Inactive -> Active
+0: 276 Inactive -> Active
+0: 277 Inactive -> Active
+0: 279 Inactive -> Active
+0: 280 Inactive -> Active
+0: 281 Inactive -> Active
+0: 283 Inactive -> Active
+0: 284 Inactive -> Active
+0: 285 Inactive -> Active
+0: 288 Inactive -> Active
+0: 290 Inactive -> Active
+0: 292 Inactive -> Active
+0: 294 Inactive -> Active
+0: 295 Inactive -> Active
+0: 296 Inactive -> Active
+0: 297 Inactive -> Active
+0: 298 Inactive -> Active
+0: 299 Inactive -> Active
+0: 300 Inactive -> Active
+0: 301 Inactive -> Active
+0: 302 Inactive -> Active
+0: 303 Inactive -> Active
+0: 304 Inactive -> Active
+0: 305 Inactive -> Active
+0: 306 Inactive -> Active
+0: 307 Inactive -> Active
+0: 308 Inactive -> Active
+0: 309 Inactive -> Active
+0: 312 Inactive -> Active
+0: 313 Inactive -> Active
+0: 314 Inactive -> Active
+0: 315 Inactive -> Active
+0: 316 Inactive -> Active
+0: 317 Inactive -> Active
+0: 318 Inactive -> Active
+0: 320 Inactive -> Active
+0: 321 Inactive -> Active
+0: 323 Inactive -> Active
+0: 324 Inactive -> Active
+0: 326 Inactive -> Active
+0: 327 Inactive -> Active
+0: 329 Inactive -> Active
+0: 330 Inactive -> Active
+0: 332 Inactive -> Active
+0: 333 Inactive -> Active
+0: 335 Inactive -> Active
+0: 336 Inactive -> Active
+0: 337 Inactive -> Active
+0: 339 Inactive -> Active
+0: 343 Inactive -> Active
+0: 344 Inactive -> Active
+0: 345 Inactive -> Active
+0: 346 Inactive -> Active
+0: 347 Inactive -> Active
+0: 348 Inactive -> Active
+0: 349 Inactive -> Active
+0: 350 Inactive -> Active
+0: 351 Inactive -> Active
+0: 352 Inactive -> Active
+0: 353 Inactive -> Active
+0: 354 Inactive -> Active
+0: 355 Inactive -> Active
+0: 356 Inactive -> Active
+0: 357 Inactive -> Active
+0: 358 Inactive -> Active
+0: 359 Inactive -> Active
+0: 360 Inactive -> Active
+0: 361 Inactive -> Active
+0: 362 Inactive -> Active
+0: 363 Inactive -> Active
+0: 364 Inactive -> Active
+0: 365 Inactive -> Active
+0: 366 Inactive -> Active
+0: 367 Inactive -> Active
+0: 369 Inactive -> Active
+0: 371 Inactive -> Active
+1: 267 Active -> Withdrawn
+1: 315 Active -> Inactive
+1: 373 Inactive -> Active
+Allocation of Deceased Donor 342 at Time 1
+No Eligible Candidates on Waitlist for Chain Transplantation; Allocation Direct to Waitlist
+Allocation of Deceased Donor 385 at Time 1
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
 2: WL 1482 Inactive -> Active
-2: 33 Active -> Inactive
-2: 54 Active -> Inactive
-2: 71 Active -> Inactive
-2: 96 Inactive -> Active
-2: 97 Inactive -> Active
-Match Run at Time 2
-Active Pool for Current Match Run: 32 (1) 63 (1) 5 (0) 6 (0) 9 (0) 10 (0) 12 (0) 13 (0) 15 (0) 18 (0) 19 (0) 20 (0) 23 (0) 24 (0) 26 (0) 28 (0) 30 (0) 34 (0) 35 (0) 36 (0) 37 (0) 40 (0) 41 (0) 43 (0) 45 (0) 47 (0) 48 (0) 49 (0) 50 (0) 51 (0) 55 (0) 67 (0) 68 (0) 69 (0) 70 (0) 72 (0) 73 (0) 75 (0) 78 (0) 80 (0) 81 (0) 82 (0) 84 (0) 86 (0) 89 (0) 90 (0) 92 (0) 94 (0) 95 (0) 96 (0) 
-Cycles/Chains: 0
-
+2: 329 Active -> Withdrawn
+2: 374 Inactive -> Active
+Allocation of Deceased Donor 410 at Time 2
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
 3: WL 1483 Inactive -> Active
 3: WL 1484 Inactive -> Active
-3: 98 Inactive -> Active
-Match Run at Time 3
-Active Pool for Current Match Run: 32 (1) 63 (1) 5 (0) 6 (0) 9 (0) 10 (0) 12 (0) 13 (0) 15 (0) 18 (0) 19 (0) 20 (0) 23 (0) 24 (0) 26 (0) 28 (0) 30 (0) 34 (0) 35 (0) 36 (0) 37 (0) 40 (0) 41 (0) 43 (0) 45 (0) 47 (0) 48 (0) 49 (0) 50 (0) 51 (0) 55 (0) 67 (0) 68 (0) 69 (0) 70 (0) 72 (0) 73 (0) 75 (0) 78 (0) 80 (0) 81 (0) 82 (0) 84 (0) 86 (0) 89 (0) 90 (0) 92 (0) 94 (0) 95 (0) 96 (0) 97 (0) 
-Cycles/Chains: 0
-
-4: 99 Inactive -> Active
-Match Run at Time 4
-Active Pool for Current Match Run: 32 (1) 63 (1) 5 (0) 6 (0) 9 (0) 10 (0) 12 (0) 13 (0) 15 (0) 18 (0) 19 (0) 20 (0) 23 (0) 24 (0) 26 (0) 28 (0) 30 (0) 34 (0) 35 (0) 36 (0) 37 (0) 40 (0) 41 (0) 43 (0) 45 (0) 47 (0) 48 (0) 49 (0) 50 (0) 51 (0) 55 (0) 67 (0) 68 (0) 69 (0) 70 (0) 72 (0) 73 (0) 75 (0) 78 (0) 80 (0) 81 (0) 82 (0) 84 (0) 86 (0) 89 (0) 90 (0) 92 (0) 94 (0) 95 (0) 96 (0) 97 (0) 98 (0) 
-Cycles/Chains: 0
-
-5: 13 Active -> Inactive
-5: 18 Active -> Inactive
-5: 23 Active -> Withdrawn
-5: 100 Inactive -> Active
-Match Run at Time 5
-Active Pool for Current Match Run: 32 (1) 63 (1) 5 (0) 6 (0) 9 (0) 10 (0) 12 (0) 15 (0) 19 (0) 20 (0) 24 (0) 26 (0) 28 (0) 30 (0) 34 (0) 35 (0) 36 (0) 37 (0) 40 (0) 41 (0) 43 (0) 45 (0) 47 (0) 48 (0) 49 (0) 50 (0) 51 (0) 55 (0) 67 (0) 68 (0) 69 (0) 70 (0) 72 (0) 73 (0) 75 (0) 78 (0) 80 (0) 81 (0) 82 (0) 84 (0) 86 (0) 89 (0) 90 (0) 92 (0) 94 (0) 95 (0) 96 (0) 97 (0) 98 (0) 99 (0) 
-Cycles/Chains: 0
-
+3: 11 Active -> Withdrawn
+3: 66 Active -> Withdrawn
+Allocation of Deceased Donor 381 at Time 3
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+Allocation of Deceased Donor 334 at Time 3
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+Allocation of Deceased Donor 358 at Time 3
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+4: 225 Active -> Inactive
+4: 270 Active -> Inactive
+4: 290 Active -> Inactive
+4: 317 Active -> Inactive
+4: 350 Active -> Inactive
+4: 375 Inactive -> Active
+4: 376 Inactive -> Active
+5: 87 Active -> Withdrawn
+5: 153 Active -> Withdrawn
+5: 228 Active -> Withdrawn
+5: 255 Active -> Withdrawn
+5: 302 Active -> Inactive
+5: 377 Inactive -> Active
+Allocation of Deceased Donor 474 at Time 5
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
 6: WL 1485 Inactive -> Active
-6: 78 Active -> Inactive
-6: 101 Inactive -> Active
-Match Run at Time 6
-Active Pool for Current Match Run: 32 (1) 63 (1) 5 (0) 6 (0) 9 (0) 10 (0) 12 (0) 15 (0) 19 (0) 20 (0) 24 (0) 26 (0) 28 (0) 30 (0) 34 (0) 35 (0) 36 (0) 37 (0) 40 (0) 41 (0) 43 (0) 45 (0) 47 (0) 48 (0) 49 (0) 50 (0) 51 (0) 55 (0) 67 (0) 68 (0) 69 (0) 70 (0) 72 (0) 73 (0) 75 (0) 80 (0) 81 (0) 82 (0) 84 (0) 86 (0) 89 (0) 90 (0) 92 (0) 94 (0) 95 (0) 96 (0) 97 (0) 98 (0) 99 (0) 100 (0) 
-Cycles/Chains: 0
-
+6: WL 1486 Inactive -> Active
+6: WL 1487 Inactive -> Active
+6: 244 Active -> Inactive
+6: 270 Inactive -> Active
+6: 285 Active -> Inactive
+6: 378 Inactive -> Active
+6: 379 Inactive -> Active
+6: 380 Inactive -> Active
 7: WL 1488 Inactive -> Active
 7: WL 1489 Inactive -> Active
-Match Run at Time 7
-Active Pool for Current Match Run: 32 (1) 63 (1) 5 (0) 6 (0) 9 (0) 10 (0) 12 (0) 15 (0) 19 (0) 20 (0) 24 (0) 26 (0) 28 (0) 30 (0) 34 (0) 35 (0) 36 (0) 37 (0) 40 (0) 41 (0) 43 (0) 45 (0) 47 (0) 48 (0) 49 (0) 50 (0) 51 (0) 55 (0) 67 (0) 68 (0) 69 (0) 70 (0) 72 (0) 73 (0) 75 (0) 80 (0) 81 (0) 82 (0) 84 (0) 86 (0) 89 (0) 90 (0) 92 (0) 94 (0) 95 (0) 96 (0) 97 (0) 98 (0) 99 (0) 100 (0) 
-Cycles/Chains: 0
-
+7: 33 Active -> Inactive
+7: 99 Active -> Inactive
+7: 192 Active -> Withdrawn
+7: 227 Active -> Withdrawn
+7: 381 Inactive -> Active
+7: 382 Inactive -> Active
+Allocation of Deceased Donor 500 at Time 7
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
 8: WL 1490 Inactive -> Active
 8: WL 1491 Inactive -> Active
 8: WL 1492 Inactive -> Active
 8: WL 1493 Inactive -> Active
 8: WL 1494 Inactive -> Active
-8: 73 Active -> Inactive
-8: 102 Inactive -> Active
-Match Run at Time 8
-Active Pool for Current Match Run: 32 (1) 63 (1) 5 (0) 6 (0) 9 (0) 10 (0) 12 (0) 15 (0) 19 (0) 20 (0) 24 (0) 26 (0) 28 (0) 30 (0) 34 (0) 35 (0) 36 (0) 37 (0) 40 (0) 41 (0) 43 (0) 45 (0) 47 (0) 48 (0) 49 (0) 50 (0) 51 (0) 55 (0) 67 (0) 68 (0) 69 (0) 70 (0) 72 (0) 75 (0) 80 (0) 81 (0) 82 (0) 84 (0) 86 (0) 89 (0) 90 (0) 92 (0) 94 (0) 95 (0) 96 (0) 97 (0) 98 (0) 99 (0) 100 (0) 101 (0) 
-Cycles/Chains: 0
-
-9: 50 Active -> Inactive
-9: 96 Active -> Withdrawn
-9: 103 Inactive -> Active
-Match Run at Time 9
-Active Pool for Current Match Run: 32 (1) 63 (1) 5 (0) 6 (0) 9 (0) 10 (0) 12 (0) 15 (0) 19 (0) 20 (0) 24 (0) 26 (0) 28 (0) 30 (0) 34 (0) 35 (0) 36 (0) 37 (0) 40 (0) 41 (0) 43 (0) 45 (0) 47 (0) 48 (0) 49 (0) 51 (0) 55 (0) 67 (0) 68 (0) 69 (0) 70 (0) 72 (0) 75 (0) 80 (0) 81 (0) 82 (0) 84 (0) 86 (0) 89 (0) 90 (0) 92 (0) 94 (0) 95 (0) 97 (0) 98 (0) 99 (0) 100 (0) 101 (0) 102 (0) 
-Cycles/Chains: 0
-
+8: 168 Active -> Withdrawn
+9: WL 1495 Inactive -> Active
+9: WL 1496 Inactive -> Active
+9: 92 Active -> Inactive
+9: 383 Inactive -> Active
+10: WL 1497 Inactive -> Active
 10: WL 1498 Inactive -> Active
 10: WL 1499 Inactive -> Active
 10: WL 1500 Inactive -> Active
 10: WL 1501 Inactive -> Active
-Match Run at Time 10
-Active Pool for Current Match Run: 32 (1) 63 (1) 5 (0) 6 (0) 9 (0) 10 (0) 12 (0) 15 (0) 19 (0) 20 (0) 24 (0) 26 (0) 28 (0) 30 (0) 34 (0) 35 (0) 36 (0) 37 (0) 40 (0) 41 (0) 43 (0) 45 (0) 47 (0) 48 (0) 49 (0) 51 (0) 55 (0) 67 (0) 68 (0) 69 (0) 70 (0) 72 (0) 75 (0) 80 (0) 81 (0) 82 (0) 84 (0) 86 (0) 89 (0) 90 (0) 92 (0) 94 (0) 95 (0) 97 (0) 98 (0) 99 (0) 100 (0) 101 (0) 102 (0) 
+10: 107 Active -> Inactive
+10: 296 Active -> Inactive
+10: 307 Active -> Inactive
+10: 384 Inactive -> Active
+Allocation of Deceased Donor 644 at Time 10
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+11: 115 Active -> Inactive
+11: 180 Active -> Inactive
+11: 221 Active -> Inactive
+11: 225 Inactive -> Withdrawn
+11: 262 Active -> Inactive
+11: 274 Active -> Inactive
+11: 332 Active -> Withdrawn
+11: 385 Inactive -> Active
+11: 386 Inactive -> Active
+Allocation of Deceased Donor 624 at Time 11
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+12: 166 Active -> Withdrawn
+12: 330 Active -> Inactive
+12: 376 Active -> Withdrawn
+12: 387 Inactive -> Active
+12: 388 Inactive -> Active
+Allocation of Deceased Donor 803 at Time 12
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+13: WL 1502 Inactive -> Active
+13: WL 1503 Inactive -> Active
+13: WL 1504 Inactive -> Active
+13: WL 1505 Inactive -> Active
+13: WL 1506 Inactive -> Active
+13: 60 Active -> Withdrawn
+13: 123 Active -> Inactive
+13: 237 Active -> Inactive
+13: 271 Active -> Inactive
+13: 298 Active -> Inactive
+13: 389 Inactive -> Active
+13: 390 Inactive -> Active
+14: WL 1507 Inactive -> Active
+14: WL 1508 Inactive -> Active
+14: 123 Inactive -> Active
+14: 275 Active -> Withdrawn
+14: 317 Inactive -> Active
+14: 389 Active -> Withdrawn
+14: 391 Inactive -> Active
+14: 392 Inactive -> Active
+14: 393 Inactive -> Active
+Allocation of Deceased Donor 847 at Time 14
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+15: WL 1509 Inactive -> Active
+15: WL 1510 Inactive -> Active
+15: 117 Active -> Inactive
+15: 180 Inactive -> Active
+15: 296 Inactive -> Active
+15: 303 Active -> Inactive
+15: 309 Active -> Withdrawn
+15: 323 Active -> Inactive
+15: 351 Active -> Inactive
+15: 359 Active -> Inactive
+Match Run at Time 15
+Active Pool for Current Match Run: 280 (1) 375 (1) 2 (0) 3 (0) 12 (0) 14 (0) 16 (0) 17 (0) 18 (0) 20 (0) 21 (0) 23 (0) 24 (0) 25 (0) 26 (0) 27 (0) 29 (0) 31 (0) 34 (0) 35 (0) 40 (0) 43 (0) 45 (0) 46 (0) 47 (0) 49 (0) 50 (0) 51 (0) 57 (0) 58 (0) 61 (0) 62 (0) 67 (0) 68 (0) 70 (0) 72 (0) 77 (0) 78 (0) 80 (0) 83 (0) 85 (0) 86 (0) 93 (0) 95 (0) 96 (0) 102 (0) 106 (0) 108 (0) 110 (0) 111 (0) 112 (0) 113 (0) 119 (0) 123 (0) 124 (0) 126 (0) 129 (0) 133 (0) 136 (0) 137 (0) 138 (0) 139 (0) 141 (0) 142 (0) 144 (0) 146 (0) 147 (0) 149 (0) 155 (0) 158 (0) 159 (0) 160 (0) 163 (0) 164 (0) 165 (0) 170 (0) 171 (0) 172 (0) 173 (0) 174 (0) 175 (0) 177 (0) 180 (0) 181 (0) 183 (0) 184 (0) 185 (0) 186 (0) 189 (0) 190 (0) 193 (0) 194 (0) 195 (0) 197 (0) 198 (0) 199 (0) 200 (0) 201 (0) 202 (0) 203 (0) 204 (0) 205 (0) 207 (0) 208 (0) 209 (0) 210 (0) 211 (0) 212 (0) 213 (0) 214 (0) 215 (0) 216 (0) 222 (0) 223 (0) 224 (0) 229 (0) 230 (0) 231 (0) 234 (0) 238 (0) 239 (0) 240 (0) 241 (0) 242 (0) 243 (0) 245 (0) 246 (0) 247 (0) 251 (0) 252 (0) 253 (0) 254 (0) 256 (0) 258 (0) 260 (0) 261 (0) 265 (0) 268 (0) 269 (0) 270 (0) 273 (0) 276 (0) 277 (0) 279 (0) 281 (0) 283 (0) 284 (0) 288 (0) 292 (0) 294 (0) 295 (0) 296 (0) 297 (0) 299 (0) 300 (0) 301 (0) 304 (0) 305 (0) 306 (0) 308 (0) 312 (0) 313 (0) 314 (0) 316 (0) 317 (0) 318 (0) 320 (0) 321 (0) 324 (0) 326 (0) 327 (0) 333 (0) 335 (0) 336 (0) 337 (0) 339 (0) 343 (0) 344 (0) 345 (0) 346 (0) 347 (0) 348 (0) 349 (0) 352 (0) 353 (0) 354 (0) 355 (0) 356 (0) 357 (0) 358 (0) 360 (0) 361 (0) 362 (0) 363 (0) 364 (0) 365 (0) 366 (0) 367 (0) 369 (0) 371 (0) 373 (0) 374 (0) 377 (0) 378 (0) 379 (0) 380 (0) 381 (0) 382 (0) 383 (0) 384 (0) 385 (0) 386 (0) 387 (0) 388 (0) 390 (0) 391 (0) 392 (0) 
+Cycles/Chains: 2
+Optimization: 2
+
+Chain 375-379-164 Queued
+Allocation of Deceased Donor 749 at Time 15
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+16: WL 1511 Inactive -> Active
+16: WL 1512 Inactive -> Active
+16: 213 Active -> Withdrawn
+16: 285 Inactive -> Withdrawn
+16: 394 Inactive -> Active
+Allocation of Deceased Donor 856 at Time 16
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+Allocation of Deceased Donor 678 at Time 16
+Priority Candidate Found; Allocation Direct to Waitlist
+16: TX - 375-379-164
+
+Donor Node 375 Available
+
+Candidate Node 379 Available
+
+Match 375[1] -> 379 Successful (-> 1)
+Donor Node 379 Available
+
+Candidate Node 164 Available
+
+Match 379[1] -> 164 Failed (Removed)
+TX: 375[0] -> 379 Recorded
+Donors 379 now BD, returned to pool
+Pair 164 returned 17: 110 Active -> Inactive
+17: 139 Active -> Inactive
+17: 256 Active -> Inactive
+17: 345 Active -> Inactive
+17: 395 Inactive -> Active
+17: 396 Inactive -> Active
+Allocation of Deceased Donor 713 at Time 17
+Priority Candidate Found; Allocation Direct to Waitlist
+Allocation of Deceased Donor 880 at Time 17
+Priority Candidate Found; Allocation Direct to Waitlist
+18: 24 Active -> Inactive
+18: 133 Active -> Withdrawn
+18: 164 Active -> Withdrawn
+18: 174 Active -> Withdrawn
+18: 231 Active -> Withdrawn
+18: 313 Active -> Inactive
+18: 397 Inactive -> Active
+Allocation of Deceased Donor 679 at Time 18
+Priority Candidate Found; Allocation Direct to Waitlist
+19: 58 Active -> Inactive
+19: 398 Inactive -> Active
+20: WL 1513 Inactive -> Active
+20: 26 Active -> Inactive
+20: 86 Active -> Inactive
+20: 92 Inactive -> Active
+20: 251 Active -> Inactive
+20: 351 Inactive -> Active
+20: 391 Active -> Withdrawn
+20: 399 Inactive -> Active
+21: WL 1514 Inactive -> Active
+21: WL 1515 Inactive -> Active
+21: WL 1516 Inactive -> Active
+21: 201 Active -> Inactive
+21: 204 Active -> Withdrawn
+21: 274 Inactive -> Active
+Allocation of Deceased Donor 1096 at Time 21
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+22: WL 1517 Inactive -> Active
+22: WL 1518 Inactive -> Active
+22: WL 1519 Inactive -> Active
+22: 51 Active -> Inactive
+22: 86 Inactive -> Active
+22: 102 Active -> Withdrawn
+22: 107 Inactive -> Active
+22: 117 Inactive -> Active
+22: 201 Inactive -> Active
+22: 315 Inactive -> Active
+22: 327 Active -> Withdrawn
+22: 400 Inactive -> Active
+23: WL 1520 Inactive -> Active
+23: WL 1521 Inactive -> Active
+23: WL 1522 Inactive -> Active
+23: WL 1523 Inactive -> Active
+23: WL 1524 Inactive -> Active
+23: 323 Inactive -> Active
+23: 401 Inactive -> Active
+23: 402 Inactive -> Active
+24: WL 1525 Inactive -> Active
+24: 253 Active -> Withdrawn
+24: 314 Active -> Inactive
+24: 386 Active -> Inactive
+24: 403 Inactive -> Active
+Allocation of Deceased Donor 1043 at Time 24
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+25: 106 Active -> Inactive
+25: 224 Active -> Withdrawn
+25: 237 Inactive -> Withdrawn
+25: 404 Inactive -> Active
+25: 405 Inactive -> Active
+Allocation of Deceased Donor 1038 at Time 25
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+Allocation of Deceased Donor 1050 at Time 25
+Priority Candidate Found; Allocation Direct to Waitlist
+26: 141 Active -> Inactive
+26: 185 Active -> Inactive
+26: 251 Inactive -> Active
+26: 313 Inactive -> Withdrawn
+26: 345 Inactive -> Active
+26: 359 Inactive -> Active
+26: 382 Active -> Inactive
+26: 404 Active -> Withdrawn
+26: 406 Inactive -> Active
+Allocation of Deceased Donor 1210 at Time 26
+No Compatible Pairs in KPD Pool; Allocation Direct to Waitlist
+27: WL 1526 Inactive -> Active
+27: WL 1527 Inactive -> Active
+27: WL 1528 Inactive -> Active
+27: WL 1529 Inactive -> Active
+27: 173 Active -> Withdrawn
+27: 268 Active -> Inactive
+27: 393 Active -> Withdrawn
+27: 407 Inactive -> Active
+27: 408 Inactive -> Active
+28: WL 1530 Inactive -> Active
+28: WL 1531 Inactive -> Active
+28: WL 1532 Inactive -> Active
+28: WL 1533 Inactive -> Active
+28: 3 Active -> Inactive
+28: 46 Active -> Inactive
+28: 141 Inactive -> Active
+28: 256 Inactive -> Active
+28: 361 Active -> Inactive
+28: 409 Inactive -> Active
+29: WL 1534 Inactive -> Active
+29: WL 1535 Inactive -> Active
+29: 108 Active -> Inactive
+29: 388 Active -> Withdrawn
+30: WL 1536 Inactive -> Active
+30: WL 1537 Inactive -> Active
+30: 29 Active -> Inactive
+30: 198 Active -> Withdrawn
+30: 256 Active -> Inactive
+30: 361 Inactive -> Active
+30: 410 Inactive -> Active
+Match Run at Time 30
+Active Pool for Current Match Run: 280 (1) 379 (2) 395 (1) 2 (0) 12 (0) 14 (0) 16 (0) 17 (0) 18 (0) 20 (0) 21 (0) 23 (0) 25 (0) 27 (0) 31 (0) 34 (0) 35 (0) 40 (0) 43 (0) 45 (0) 47 (0) 49 (0) 50 (0) 57 (0) 61 (0) 62 (0) 67 (0) 68 (0) 70 (0) 72 (0) 77 (0) 78 (0) 80 (0) 83 (0) 85 (0) 86 (0) 92 (0) 93 (0) 95 (0) 96 (0) 107 (0) 111 (0) 112 (0) 113 (0) 117 (0) 119 (0) 123 (0) 124 (0) 126 (0) 129 (0) 136 (0) 137 (0) 138 (0) 141 (0) 142 (0) 144 (0) 146 (0) 147 (0) 149 (0) 155 (0) 158 (0) 159 (0) 160 (0) 163 (0) 165 (0) 170 (0) 171 (0) 172 (0) 175 (0) 177 (0) 180 (0) 181 (0) 183 (0) 184 (0) 186 (0) 189 (0) 190 (0) 193 (0) 194 (0) 195 (0) 197 (0) 199 (0) 200 (0) 201 (0) 202 (0) 203 (0) 205 (0) 207 (0) 208 (0) 209 (0) 210 (0) 211 (0) 212 (0) 214 (0) 215 (0) 216 (0) 222 (0) 223 (0) 229 (0) 230 (0) 234 (0) 238 (0) 239 (0) 240 (0) 241 (0) 242 (0) 243 (0) 245 (0) 246 (0) 247 (0) 251 (0) 252 (0) 254 (0) 258 (0) 260 (0) 261 (0) 265 (0) 269 (0) 270 (0) 273 (0) 274 (0) 276 (0) 277 (0) 279 (0) 281 (0) 283 (0) 284 (0) 288 (0) 292 (0) 294 (0) 295 (0) 296 (0) 297 (0) 299 (0) 300 (0) 301 (0) 304 (0) 305 (0) 306 (0) 308 (0) 312 (0) 315 (0) 316 (0) 317 (0) 318 (0) 320 (0) 321 (0) 323 (0) 324 (0) 326 (0) 333 (0) 335 (0) 336 (0) 337 (0) 339 (0) 343 (0) 344 (0) 345 (0) 346 (0) 347 (0) 348 (0) 349 (0) 351 (0) 352 (0) 353 (0) 354 (0) 355 (0) 356 (0) 357 (0) 358 (0) 359 (0) 360 (0) 361 (0) 362 (0) 363 (0) 364 (0) 365 (0) 366 (0) 367 (0) 369 (0) 371 (0) 373 (0) 374 (0) 377 (0) 378 (0) 380 (0) 381 (0) 383 (0) 384 (0) 385 (0) 387 (0) 390 (0) 392 (0) 394 (0) 396 (0) 397 (0) 398 (0) 399 (0) 400 (0) 401 (0) 402 (0) 403 (0) 405 (0) 406 (0) 407 (0) 408 (0) 409 (0) 
 Cycles/Chains: 0
 
-11: 5 Active -> Inactive
+31: WL 1538 Inactive -> Active
+31: WL 1539 Inactive -> Active
+31: WL 1540 Inactive -> Active
+31: WL 1541 Inactive -> Active
+31: 208 Active -> Inactive
+31: 216 Active -> Inactive
+31: 380 Active -> Inactive
+31: 407 Active -> Inactive
+31: 411 Inactive -> Active
+Allocation of Deceased Donor 1335 at Time 31
+Priority Candidate Found; Allocation Direct to Waitlist
+32: WL 1542 Inactive -> Active
+32: 40 Active -> Inactive
+32: 58 Inactive -> Active
+32: 112 Active -> Inactive
+32: 205 Active -> Inactive
+32: 299 Active -> Inactive
+32: 316 Active -> Withdrawn
+32: 405 Active -> Inactive
+32: 412 Inactive -> Active
+Allocation of Deceased Donor 1236 at Time 32
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+33: 106 Inactive -> Withdrawn
+33: 112 Inactive -> Active
+33: 126 Active -> Inactive
+33: 199 Active -> Inactive
+33: 221 Inactive -> Withdrawn
+33: 269 Active -> Inactive
+33: 345 Active -> Withdrawn
+33: 365 Active -> Inactive
+33: 401 Active -> Withdrawn
+33: 413 Inactive -> Active
+34: 210 Active -> Inactive
+34: 301 Active -> Inactive
+34: 414 Inactive -> Active
+35: WL 1543 Inactive -> Active
+35: 202 Active -> Inactive
+35: 261 Active -> Inactive
+35: 377 Active -> Inactive
+35: 415 Inactive -> Active
+35: 416 Inactive -> Active
+Allocation of Deceased Donor 1588 at Time 35
+Priority Candidate Found; Allocation Direct to Waitlist
+36: WL 1544 Inactive -> Active
+36: WL 1545 Inactive -> Active
+36: WL 1546 Inactive -> Active
+36: 172 Active -> Withdrawn
+36: 283 Active -> Inactive
+36: 363 Active -> Inactive
+Allocation of Deceased Donor 1479 at Time 36
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+37: WL 1547 Inactive -> Active
+37: WL 1548 Inactive -> Active
+37: 14 Active -> Inactive
+37: 27 Active -> Withdrawn
+37: 165 Active -> Withdrawn
+37: 223 Active -> Inactive
+37: 242 Active -> Inactive
+37: 300 Active -> Withdrawn
+37: 305 Active -> Inactive
+37: 373 Active -> Inactive
+37: 382 Inactive -> Active
+37: 417 Inactive -> Active
+38: WL 1549 Inactive -> Active
+38: WL 1550 Inactive -> Active
+38: WL 1551 Inactive -> Active
+38: 301 Inactive -> Active
+38: 305 Inactive -> Withdrawn
+38: 412 Active -> Inactive
+38: 418 Inactive -> Active
+Allocation of Deceased Donor 1533 at Time 38
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+Allocation of Deceased Donor 1503 at Time 38
+Priority Candidate Found; Allocation Direct to Waitlist
+39: 419 Inactive -> Active
+39: 420 Inactive -> Active
+40: 93 Active -> Inactive
+40: 110 Inactive -> Active
+40: 246 Active -> Inactive
+40: 344 Active -> Inactive
+40: 363 Inactive -> Withdrawn
+40: 374 Active -> Withdrawn
+40: 421 Inactive -> Active
+40: 422 Inactive -> Active
+41: WL 1552 Inactive -> Active
+41: WL 1553 Inactive -> Active
+41: WL 1554 Inactive -> Active
+41: 18 Active -> Withdrawn
+41: 216 Inactive -> Active
+41: 314 Inactive -> Active
+41: 357 Active -> Inactive
+41: 423 Inactive -> Active
+42: WL 1555 Inactive -> Active
+42: WL 1556 Inactive -> Active
+42: 424 Inactive -> Active
+42: 425 Inactive -> Active
+43: WL 1557 Inactive -> Active
+43: WL 1558 Inactive -> Active
+43: WL 1559 Inactive -> Active
+43: WL 1560 Inactive -> Active
+43: 99 Inactive -> Active
+43: 201 Active -> Withdrawn
+43: 239 Active -> Withdrawn
+43: 243 Active -> Inactive
+43: 359 Active -> Inactive
+43: 365 Inactive -> Active
+43: 426 Inactive -> Active
+43: 427 Inactive -> Active
+Allocation of Deceased Donor 1738 at Time 43
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+44: WL 1561 Inactive -> Active
+44: WL 1562 Inactive -> Active
+44: 34 Active -> Inactive
+44: 119 Active -> Inactive
+44: 208 Inactive -> Withdrawn
+44: 312 Active -> Inactive
+44: 428 Inactive -> Active
+44: 429 Inactive -> Active
+45: WL 1563 Inactive -> Active
+45: WL 1564 Inactive -> Active
+45: WL 1565 Inactive -> Active
+45: WL 1566 Inactive -> Active
+45: WL 1567 Inactive -> Active
+45: WL 1568 Inactive -> Active
+45: 45 Active -> Inactive
+45: 181 Active -> Inactive
+45: 205 Inactive -> Active
+45: 229 Active -> Inactive
+45: 270 Active -> Inactive
+45: 369 Active -> Inactive
+45: 430 Inactive -> Active
+Match Run at Time 45
+Active Pool for Current Match Run: 280 (1) 379 (2) 395 (1) 413 (1) 2 (0) 12 (0) 16 (0) 17 (0) 20 (0) 21 (0) 23 (0) 25 (0) 31 (0) 35 (0) 43 (0) 47 (0) 49 (0) 50 (0) 57 (0) 58 (0) 61 (0) 62 (0) 67 (0) 68 (0) 70 (0) 72 (0) 77 (0) 78 (0) 80 (0) 83 (0) 85 (0) 86 (0) 92 (0) 95 (0) 96 (0) 99 (0) 107 (0) 110 (0) 111 (0) 112 (0) 113 (0) 117 (0) 123 (0) 124 (0) 129 (0) 136 (0) 137 (0) 138 (0) 141 (0) 142 (0) 144 (0) 146 (0) 147 (0) 149 (0) 155 (0) 158 (0) 159 (0) 160 (0) 163 (0) 170 (0) 171 (0) 175 (0) 177 (0) 180 (0) 183 (0) 184 (0) 186 (0) 189 (0) 190 (0) 193 (0) 194 (0) 195 (0) 197 (0) 200 (0) 203 (0) 205 (0) 207 (0) 209 (0) 211 (0) 212 (0) 214 (0) 215 (0) 216 (0) 222 (0) 230 (0) 234 (0) 238 (0) 240 (0) 241 (0) 245 (0) 247 (0) 251 (0) 252 (0) 254 (0) 258 (0) 260 (0) 265 (0) 273 (0) 274 (0) 276 (0) 277 (0) 279 (0) 281 (0) 284 (0) 288 (0) 292 (0) 294 (0) 295 (0) 296 (0) 297 (0) 301 (0) 304 (0) 306 (0) 308 (0) 314 (0) 315 (0) 317 (0) 318 (0) 320 (0) 321 (0) 323 (0) 324 (0) 326 (0) 333 (0) 335 (0) 336 (0) 337 (0) 339 (0) 343 (0) 346 (0) 347 (0) 348 (0) 349 (0) 351 (0) 352 (0) 353 (0) 354 (0) 355 (0) 356 (0) 358 (0) 360 (0) 361 (0) 362 (0) 364 (0) 365 (0) 366 (0) 367 (0) 371 (0) 378 (0) 381 (0) 382 (0) 383 (0) 384 (0) 385 (0) 387 (0) 390 (0) 392 (0) 394 (0) 396 (0) 397 (0) 398 (0) 399 (0) 400 (0) 402 (0) 403 (0) 406 (0) 408 (0) 409 (0) 410 (0) 411 (0) 414 (0) 415 (0) 416 (0) 417 (0) 418 (0) 419 (0) 420 (0) 421 (0) 422 (0) 423 (0) 424 (0) 425 (0) 426 (0) 427 (0) 428 (0) 429 (0) 
+Cycles/Chains: 2198
+Optimization: 3
+
+Chain 413-68-378-383 Queued
+46: WL 1569 Inactive -> Active
+46: 113 Active -> Withdrawn
+46: 160 Active -> Inactive
+46: 261 Inactive -> Active
+46: 299 Inactive -> Active
+46: 364 Active -> Inactive
+46: 399 Active -> Inactive
+46: TX - 413-68-378-383
+
+Donor Node 413 Available
+
+Candidate Node 68 Available
+
+Match 413[1] -> 68 Successful (-> 1)
+Donor Node 413 Available
+
+Candidate Node 378 Available
+
+Match 413[1] -> 378 Failed (Removed)
+Donor Node 68 Available
+
+Candidate Node 378 Available
+
+Match 68[1] -> 378 Failed (Removed)
+Donor Node 413 Available
+
+Candidate Node 383 Available
+
+Match 413[1] -> 383 Failed (Removed)
+Donor Node 378 Available
+
+Candidate Node 383 Available
+
+Match 378[1] -> 383 Failed (Removed)
+TX: 413[0] -> 68 Recorded
+Donors 68 now BD, returned to pool
+Pair 378 returned Pair 383 returned 47: 16 Active -> Inactive
+47: 40 Inactive -> Active
+47: 298 Inactive -> Withdrawn
+47: 348 Active -> Inactive
+47: 359 Inactive -> Withdrawn
+47: 431 Inactive -> Active
+48: WL 1570 Inactive -> Active
+48: 58 Active -> Inactive
+48: 216 Active -> Inactive
+48: 244 Inactive -> Active
+48: 270 Inactive -> Active
+49: WL 1571 Inactive -> Active
+49: WL 1572 Inactive -> Active
+49: WL 1573 Inactive -> Active
+49: 77 Active -> Withdrawn
+49: 139 Inactive -> Active
+49: 207 Active -> Inactive
+49: 270 Active -> Inactive
+49: 283 Inactive -> Active
+49: 337 Active -> Inactive
+50: WL 1574 Inactive -> Active
+50: 85 Active -> Inactive
+50: 417 Active -> Inactive
+50: 426 Active -> Inactive
+51: WL 1575 Inactive -> Active
+51: WL 1576 Inactive -> Active
+51: WL 1577 Inactive -> Active
+51: 45 Inactive -> Withdrawn
+51: 146 Active -> Inactive
+51: 216 Inactive -> Active
+51: 241 Active -> Withdrawn
+51: 277 Active -> Withdrawn
+51: 385 Active -> Withdrawn
+51: 432 Inactive -> Active
+52: WL 1578 Inactive -> Active
+52: WL 1579 Inactive -> Active
+52: 303 Inactive -> Active
+52: 357 Inactive -> Withdrawn
+52: 382 Active -> Withdrawn
+52: 433 Inactive -> Active
+53: WL 1580 Inactive -> Active
+53: 43 Active -> Inactive
+53: 181 Inactive -> Active
+53: 209 Active -> Inactive
+53: 403 Active -> Inactive
+53: 433 Active -> Inactive
+54: 24 Inactive -> Active
+54: 246 Inactive -> Active
+54: 260 Active -> Inactive
+54: 394 Active -> Inactive
+54: 409 Active -> Withdrawn
+54: 412 Inactive -> Withdrawn
+54: 434 Inactive -> Active
+54: 435 Inactive -> Active
+55: WL 1581 Inactive -> Active
+55: 199 Inactive -> Withdrawn
+55: 335 Active -> Withdrawn
+55: 381 Active -> Inactive
+55: 425 Active -> Inactive
+56: WL 1582 Inactive -> Active
+56: WL 1583 Inactive -> Active
+56: WL 1584 Inactive -> Active
+56: WL 1585 Inactive -> Active
+56: 107 Active -> Inactive
+56: 108 Inactive -> Active
+56: 212 Active -> Withdrawn
+56: 292 Active -> Withdrawn
+56: 337 Inactive -> Withdrawn
+56: 344 Inactive -> Active
+56: 348 Inactive -> Active
+56: 408 Active -> Inactive
+56: 436 Inactive -> Active
+57: WL 1586 Inactive -> Active
+57: WL 1587 Inactive -> Active
+57: 303 Active -> Inactive
+57: 386 Inactive -> Active
+57: 437 Inactive -> Active
+57: 438 Inactive -> Active
+58: WL 1588 Inactive -> Active
+58: WL 1589 Inactive -> Active
+58: WL 1590 Inactive -> Active
+58: WL 1591 Inactive -> Active
+58: WL 1592 Inactive -> Active
+58: 170 Active -> Inactive
+58: 380 Inactive -> Active
+58: 439 Inactive -> Active
+59: WL 1593 Inactive -> Active
+59: WL 1594 Inactive -> Active
+59: WL 1595 Inactive -> Active
+59: 284 Active -> Inactive
+59: 362 Active -> Withdrawn
+60: 26 Inactive -> Active
+60: 147 Active -> Withdrawn
+60: 160 Inactive -> Withdrawn
+60: 210 Inactive -> Active
+60: 254 Active -> Withdrawn
+60: 321 Active -> Inactive
+60: 440 Inactive -> Active
+Match Run at Time 60
+Active Pool for Current Match Run: 68 (2) 280 (1) 379 (2) 395 (1) 2 (0) 12 (0) 17 (0) 20 (0) 21 (0) 23 (0) 24 (0) 25 (0) 26 (0) 31 (0) 35 (0) 40 (0) 47 (0) 49 (0) 50 (0) 57 (0) 61 (0) 62 (0) 67 (0) 70 (0) 72 (0) 78 (0) 80 (0) 83 (0) 86 (0) 92 (0) 95 (0) 96 (0) 99 (0) 108 (0) 110 (0) 111 (0) 112 (0) 117 (0) 123 (0) 124 (0) 129 (0) 136 (0) 137 (0) 138 (0) 139 (0) 141 (0) 142 (0) 144 (0) 149 (0) 155 (0) 158 (0) 159 (0) 163 (0) 171 (0) 175 (0) 177 (0) 180 (0) 181 (0) 183 (0) 184 (0) 186 (0) 189 (0) 190 (0) 193 (0) 194 (0) 195 (0) 197 (0) 200 (0) 203 (0) 205 (0) 210 (0) 211 (0) 214 (0) 215 (0) 216 (0) 222 (0) 230 (0) 234 (0) 238 (0) 240 (0) 244 (0) 245 (0) 246 (0) 247 (0) 251 (0) 252 (0) 258 (0) 261 (0) 265 (0) 273 (0) 274 (0) 276 (0) 279 (0) 281 (0) 283 (0) 288 (0) 294 (0) 295 (0) 296 (0) 297 (0) 299 (0) 301 (0) 304 (0) 306 (0) 308 (0) 314 (0) 315 (0) 317 (0) 318 (0) 320 (0) 323 (0) 324 (0) 326 (0) 333 (0) 336 (0) 339 (0) 343 (0) 344 (0) 346 (0) 347 (0) 348 (0) 349 (0) 351 (0) 352 (0) 353 (0) 354 (0) 355 (0) 356 (0) 358 (0) 360 (0) 361 (0) 365 (0) 366 (0) 367 (0) 371 (0) 378 (0) 380 (0) 383 (0) 384 (0) 386 (0) 387 (0) 390 (0) 392 (0) 396 (0) 397 (0) 398 (0) 400 (0) 402 (0) 406 (0) 410 (0) 411 (0) 414 (0) 415 (0) 416 (0) 418 (0) 419 (0) 420 (0) 421 (0) 422 (0) 423 (0) 424 (0) 427 (0) 428 (0) 429 (0) 430 (0) 431 (0) 432 (0) 434 (0) 435 (0) 436 (0) 437 (0) 438 (0) 439 (0) 
+Cycles/Chains: 4
+Optimization: 5
+
+Cycle 366-440-410 Queued
+Cycle 423-432 Queued
+Allocation of Deceased Donor 2244 at Time 60
+Deceased Donor not Eligible for Transplant through KPD; Allocation Direct to Waitlist
+61: 268 Inactive -> Withdrawn
+61: 312 Inactive -> Active
+61: 425 Inactive -> Active
+61: TX - 366-440-410
+
+Donor Node 410 Available
+
+Candidate Node 366 Available
+
+Match 410[1] -> 366 Failed (Removed)
+Donor Node 366 Available
+
+Candidate Node 440 Available
+
+Match 366[1] -> 440 Failed (Removed)
+Donor Node 440 Available
+
+Candidate Node 410 Available
+
+Match 440[1] -> 410 Failed (Removed)
+No Options
+Pair 366 returned Pair 440 returned Pair 410 returned 61: TX - 423-432
+
+Donor Node 432 Available
+
+Candidate Node 423 Available
+
+Match 432[1] -> 423 Failed (Removed)
+Donor Node 423 Available
+
+Candidate Node 432 Available
+
+Match 423[1] -> 432 Failed (Removed)
+No Options
+Pair 423 returned Pair 432 returned 
