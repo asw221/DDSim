@@ -1,7 +1,14 @@
 
 ## KPD Deceased Donor Simulations
 
-Files can be downloaded and installed on a Unix-based platform with `make`.
+Files can be downloaded and installed on a Unix-based platform with
+`make`. To get this to work you may or may not have to edit your
+`~/.bash_profile`. I added the following line to mine:
+
+```Shell
+export GUROBI_HOME='/Library/gurobi800/mac64'
+```
+
 
 If you have access to the group Box, data needed to run the simulation
 are available [here](https://umich.app.box.com/folder/75240512306
