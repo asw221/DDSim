@@ -5,6 +5,9 @@
 # Ignore temporaries
 *~
 
+# Ignore executables
+*.exe
+
 
 # Ignore test, data, and output directories
 # (ignore data since it could be sensitive)
