@@ -11,7 +11,7 @@ The basic command to run the simulations follows an `./DDSim.exe
 path/to/parameterFile` idiom, e.g.
 
 ```Shell
-./DDSim.exe Test/Test.txt
+usr$ ./DDSim.exe Test/Test.txt
 ```
 
 The program assumes the `parameterFile` path will lie within the
