@@ -5,7 +5,7 @@ Files can be downloaded and installed on a Unix-based platform with `make`.
 
 If you have access to the group Box, data needed to run the simulation
 are available [here](https://umich.app.box.com/folder/75240512306
-"MBox link").
+"MBox link"). These should be extracted into a `./data` directory.
 
 The basic command to run the simulations follows an `./DDSim.exe
 path/to/parameterFile` idiom, e.g.
@@ -19,6 +19,7 @@ The program assumes the `parameterFile` path will lie within the
 follow a `#varname=value` idiom, e.g.
 
 ```
+## Possible contents of Test.txt
 #initkpdsize=240
 #maxcyclesize=3
 #maxchainlength=3
