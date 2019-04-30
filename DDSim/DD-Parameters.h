@@ -301,7 +301,7 @@ bool KPDParameters::processParameters(std::string & fileName){
 	initKPDSize = atoi(tokenTwo.c_str());
       }
       if (tokenOne.compare("#initKPDPairsAddedPerMatchRun") == 0) {
-	initKPDPairsAddedPerMatchRun = atoi(tokenTwo.c_srt());
+	initKPDPairsAddedPerMatchRun = atoi(tokenTwo.c_str());
       }
       
       if (tokenOne.compare("#pairarrivals") == 0) {
