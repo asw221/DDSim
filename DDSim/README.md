@@ -3,9 +3,10 @@
 
 Files can be downloaded and installed on a Unix-based platform with
 `make`. To get this to work you may or may not have to edit your
-`~/.bash_profile`. I added the following line to mine on my Mac:
+`~/.bash_profile`. I added the following lines to mine on my Mac:
 
 ```Shell
+alias gurobi='/Library/gurobi800/mac64/bin/gurobi.sh'
 export GUROBI_HOME='/Library/gurobi800/mac64'
 ```
 
